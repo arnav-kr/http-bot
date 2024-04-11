@@ -1,0 +1,22 @@
+{
+  "name": "discord-http-bot",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "A Discord HTTp Bot Template",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "arnav-kr (https://github.com/arnav-kr)",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "discord-api-types": "^0.37.79",
+    "discord-interactions": "^3.4.0",
+    "express": "^4.19.2"
+  }
+}
